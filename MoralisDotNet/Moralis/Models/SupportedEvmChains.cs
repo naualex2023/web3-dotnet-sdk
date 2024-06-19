@@ -155,6 +155,10 @@ namespace Moralis.Models
             resp["rinkeby"].Add("symbol", "ETH");
             resp["rinkeby"].Add("decimals", 18);
 
+            resp.Add("arbitrum", new Dictionary<string, object>());
+            resp["arbitrum"].Add("symbol", "ARB");
+            resp["arbitrum"].Add("decimals", 18);
+
             resp.Add("goerli", new Dictionary<string, object>());
             resp["goerli"].Add("symbol", "ETH");
             resp["goerli"].Add("decimals", 18);
